@@ -44,7 +44,7 @@ body {
   transform: rotate(-1.15turn);
   transition: 1s ease;
 }
-.y-menu {
+.star-menu {
   background-color: lightgray;
   width: 4rem;
   height: 3.5rem;
@@ -56,17 +56,17 @@ body {
   border-radius: 30%;
 }
 
-.y-menu:hover .y-1 {
-  transform: rotate(0.05turn);
-  position: absolute;
-  transition: 1s ease;
-}
-.y-menu:hover .y-2 {
+.star-menu:hover .star-1 {
   transform: rotate(0.1turn);
+  position: absolute;
+  transition: 1s ease;
+}
+.star-menu:hover .star-2 {
+  transform: rotate(-0.1turn);
   transition: 1s ease;
   position: absolute;
 }
-.y-menu:hover .y-3 {
+.star-menu:hover .star-3 {
   transform: rotate(0.25turn);
   transition: 1s ease;
 }
