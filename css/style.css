@@ -79,3 +79,32 @@ body {
     left: 4vw;
   }
 }
+.s-menu {
+  background-color: lightgray;
+  width: 4rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30%;
+  overflow: hidden;
+}
+.s-menu:hover .s-1 {
+  transform: rotate(0.1turn);
+  position: absolute;
+  transition: 1s ease;
+}
+.s-menu:hover .s-2 {
+  transform: rotate(-0.1turn);
+  transition: 1s ease;
+  position: absolute;
+  top: -0.1rem;
+}
+.s-menu:hover .s-3 {
+  transform: rotate(-0.1turn);
+  transition: 1s ease;
+  position: absolute;
+  bottom: -0.2rem;
+}
